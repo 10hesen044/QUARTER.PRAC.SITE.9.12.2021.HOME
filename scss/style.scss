@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top{
+    background-color: #0d2d3d;
+}
+.adress{
+    margin-top: 10px;
+    font-weight: 650;
+}
+.icon{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 15px;
+    transition: 0.5s;
+    color: white
+}
+.icon:hover{
+    color: tomato;
+}
+.icon i{
+    color: tomato;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.contact-and-btn{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.social-list{
+    margin: 0;
+}
+
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-link {
+    color: white;
+    font-size: 15px;
+}
+
+.social-link :hover{
+    color: white;
+}
+
+.add-listing {
+    background-color: tomato;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    text-decoration: none;
+    margin-left: 25px;
+    line-height: 45px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.add-listing:hover{
+    color: white;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.nav-list {        
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: tomato;
+}
+
+.nav-link i {
+    font-size: 10px;
+    margin-left: 5px;
+    position: relative;
+    top: -5px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+.button-item{
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 10px 15px;
+    transition: all 0.2s;
+}
+.button-item:hover{
+   background-color: tomato;
+   color: white;
+}
+
+footer{
+    background-color: #0b2c3d;
+
+}
+
+footer .Contact-list ul{
+    padding-left: 0;
+}
+
+footer .Contact-list li{
+    margin-top: 5px;
+    font-weight: 500;
+    list-style: none;
+}
+
+footer .Contact-list li a{
+    margin: 0;
+}
+
+footer .Contact-Footer .text{
+    color: white;
+}
+
+footer .Social-Media ul{
+    padding-left: 0;
+}
+
+footer .Social-Media li a{
+    margin: 0;
+}
+
+.Social-Media .icn{
+    list-style: none;
+}
+
+.Social-Media .icn a{
+    color: white;
+    margin: 10px;
+}
+
+.Social-Media ul{
+    display: flex;
+}
+
+.Company .title{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.Company .About-List li{
+    list-style: none;
+    padding: 5px;
+}
+
+.Company .About-List li a{
+    text-decoration: none;
+    color: white;
+}
+.Company .About-List li a:hover{
+    color: tomato;
+    transition: all 0.5s;
+}
+
+.Services .title{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.Services .Service-List li{
+    list-style: none;
+    padding: 5px;
+}
+
+.Services .Service-List li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Services .Service-List li a:hover{
+    color: tomato;
+    transition: all 0.5s;
+}
+
+.Customer .title{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.Customer .Customer-Care-List li{
+    list-style: none;
+    padding: 5px;
+}
+
+.Customer .Customer-Care-List li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Customer .Customer-Care-List li a:hover{
+    color: tomato;
+    transition: all 0.5s;
+}
+
+.NewsLetter .title{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.NewsLetter .text{
+    color: white;
+}
+
+.NewsLetter .Pay-Title{
+    color: white;
+}
+
+main .bck-img{
+    background-image: url(https://tunatheme.com/tf/html/quarter-preview/quarter/img/bg/14.jpg
+    );
+    width: 100%;
+    height: 326.6px;
+}
+
+.title .contact-us{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content{
+    padding: 110px 0;
+}
+
+.content .icon a{
+    padding-left: 5px;
+}
+
+
+.content .icon-first-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: grey;
+}
+
+.content .icon-second-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.content .icon-first-link:hover{
+    color: tomato;
+    transition: 0.5s all;
+}
+
+    
